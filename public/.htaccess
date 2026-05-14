@@ -1,0 +1,7 @@
+# Next.js static export on Apache (e.g. Hostinger): avoid MultiViews picking the wrong file
+# when URLs use trailing slashes (see next.config trailingSlash).
+<IfModule mod_negotiation.c>
+  Options -MultiViews
+</IfModule>
+
+DirectoryIndex index.html
