@@ -393,3 +393,57 @@ html {
   .v2-halo, .v2-core, .v2-core-glow,
   .v2-orbit, .v2-particle { animation: none !important; }
 }
+
+/* Portfolio case study HTML content */
+.portfolio-prose h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.25;
+}
+.portfolio-prose h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+.portfolio-prose p {
+  margin-bottom: 1rem;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: #4a4a5e;
+}
+.portfolio-prose ul {
+  margin: 1rem 0 1.25rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.portfolio-prose li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: #4a4a5e;
+}
+.portfolio-prose strong {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+.portfolio-prose a {
+  color: #10b981;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.portfolio-prose a:hover {
+  color: #059669;
+}
+.portfolio-prose blockquote {
+  margin: 1.5rem 0;
+  padding: 0.5rem 1rem 0.5rem 1.25rem;
+  border-left: 4px solid #10b981;
+  border-radius: 0 0.75rem 0.75rem 0;
+  background: rgba(16, 185, 129, 0.08);
+  color: #5a5a6b;
+}

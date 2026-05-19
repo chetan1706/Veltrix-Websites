@@ -1,3 +1,4 @@
+import { getAllPortfolioProjects } from "@/lib/portfolio";
 import type {
   NavLink,
   Solution,
@@ -238,56 +239,13 @@ export const servicesPage = {
 
 export const portfolioPage = {
   hero: {
-    eyebrow: "Selected Work",
-    title: "Products that shipped. Outcomes that compounded.",
+    eyebrow: "Portfolio",
+    title: "Proof of Delivery Across Products and Platforms",
     description:
-      "A glimpse into recent engagements across fintech, healthtech, commerce, marketing and AI.",
+      "Explore how we approach product problems, make technical decisions, and turn requirements into maintainable software that keeps improving after launch.",
   },
   categories: ["All", "Mobile", "Web", "AI", "Branding"],
-  projects: [
-    {
-      title: "Lumen Banking",
-      category: "Mobile",
-      tag: "Fintech \u00b7 iOS + Android",
-      image:
-        "https://images.unsplash.com/photo-1758524944006-ba8116008496?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      title: "Nexora Cloud Console",
-      category: "Web",
-      tag: "DevTools \u00b7 Dashboard",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      title: "Sage AI Assistant",
-      category: "AI",
-      tag: "LLM \u00b7 Knowledge Agent",
-      image:
-        "https://images.unsplash.com/photo-1677756119517-756a188d2d94?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      title: "Hello Health",
-      category: "Mobile",
-      tag: "Healthtech \u00b7 Patient App",
-      image:
-        "https://images.unsplash.com/photo-1676311563574-8857a67d86df?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      title: "Orbit Commerce",
-      category: "Web",
-      tag: "E-commerce \u00b7 Headless",
-      image:
-        "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      title: "Vertex Identity",
-      category: "Branding",
-      tag: "Brand System \u00b7 B2B SaaS",
-      image:
-        "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=900&q=80",
-    },
-  ],
+  projects: getAllPortfolioProjects(),
 };
 
 const authorArjun: BlogAuthor = {

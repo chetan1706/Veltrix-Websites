@@ -1,0 +1,148 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A0800"/><stop offset="100%" stop-color="#2D1500"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="80" r="220" fill="#FB923C" opacity="0.06"/>
+  <circle cx="700" cy="400" r="160" fill="#F59E0B" opacity="0.04"/>
+
+  <!-- Browser frame -->
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#1A0800"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="200" y="45" width="360" height="22" rx="11" fill="#2A1000"/>
+  <text x="380" y="61" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">shopforge.app / marketplace / women-fashion</text>
+
+  <!-- Nav bar -->
+  <rect x="44" y="78" width="712" height="44" fill="#FFF7ED"/>
+  <text x="64" y="105" fill="#EA580C" font-size="13" font-weight="bold" font-family="Arial,sans-serif">🛍 ShopForge</text>
+  <text x="186" y="105" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Women</text>
+  <text x="244" y="105" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Men</text>
+  <text x="292" y="105" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Kids</text>
+  <text x="340" y="105" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Accessories</text>
+  <text x="434" y="105" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Luxury</text>
+  <text x="490" y="105" fill="#EA580C" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Sale</text>
+  <!-- Search bar -->
+  <rect x="540" y="88" width="160" height="22" rx="11" fill="#FFF" stroke="#FED7AA" stroke-width="1.5"/>
+  <text x="554" y="103" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">🔍 Search 5,000+ vendors</text>
+  <rect x="708" y="88" width="26" height="22" rx="6" fill="#FB923C"/>
+  <text x="721" y="103" text-anchor="middle" fill="#FFF" font-size="10" font-family="Arial,sans-serif">🛒</text>
+  <rect x="734" y="88" width="16" height="10" rx="5" fill="#EF4444"/>
+  <text x="742" y="96" text-anchor="middle" fill="#FFF" font-size="7" font-family="Arial,sans-serif">3</text>
+
+  <!-- Hero banner -->
+  <rect x="44" y="122" width="466" height="64" fill="#FFF7ED"/>
+  <text x="58" y="150" fill="#EA580C" font-size="14" font-weight="bold" font-family="Arial,sans-serif">Summer Fashion Sale 🌟</text>
+  <text x="58" y="168" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Up to 60% off from 5,000+ curated vendors across Southeast Asia</text>
+  <rect x="390" y="136" width="112" height="28" rx="8" fill="#FB923C"/>
+  <text x="446" y="154" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Shop Now →</text>
+
+  <!-- Category pills -->
+  <rect x="44" y="186" width="466" height="22" fill="#FFF"/>
+  <rect x="52" y="190" width="64" height="14" rx="7" fill="#FB923C"/>
+  <text x="84" y="201" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold" font-family="Arial,sans-serif">All Items</text>
+  <rect x="122" y="190" width="54" height="14" rx="7" fill="#FEF3C7"/>
+  <text x="149" y="201" text-anchor="middle" fill="#D97706" font-size="8" font-family="Arial,sans-serif">Dresses</text>
+  <rect x="182" y="190" width="46" height="14" rx="7" fill="#FEF3C7"/>
+  <text x="205" y="201" text-anchor="middle" fill="#D97706" font-size="8" font-family="Arial,sans-serif">Tops</text>
+  <rect x="234" y="190" width="56" height="14" rx="7" fill="#FEF3C7"/>
+  <text x="262" y="201" text-anchor="middle" fill="#D97706" font-size="8" font-family="Arial,sans-serif">Outerwear</text>
+  <rect x="296" y="190" width="46" height="14" rx="7" fill="#FEF3C7"/>
+  <text x="319" y="201" text-anchor="middle" fill="#D97706" font-size="8" font-family="Arial,sans-serif">Shoes</text>
+
+  <!-- Products grid (3 columns) -->
+  <!-- Product 1 -->
+  <rect x="52" y="214" width="138" height="190" rx="8" fill="#FFF" stroke="#FED7AA" stroke-width="1"/>
+  <rect x="52" y="214" width="138" height="110" rx="8" fill="#FFF7ED"/>
+  <text x="121" y="278" text-anchor="middle" fill="#D97706" font-size="28" font-family="Arial,sans-serif">👗</text>
+  <rect x="52" y="308" width="138" height="96" rx="0" fill="#FFF"/>
+  <rect x="158" y="218" width="28" height="14" rx="4" fill="#EF4444"/>
+  <text x="172" y="228" text-anchor="middle" fill="#FFF" font-size="7" font-weight="bold" font-family="Arial,sans-serif">-40%</text>
+  <text x="62" y="325" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Floral Midi Dress</text>
+  <text x="62" y="338" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">SunShine Boutique</text>
+  <text x="62" y="352" fill="#FB923C" font-size="10" font-weight="bold" font-family="Arial,sans-serif">$48</text>
+  <text x="96" y="352" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif" text-decoration="line-through">$80</text>
+  <text x="62" y="364" fill="#F59E0B" font-size="9" font-family="Arial,sans-serif">★★★★★</text>
+  <text x="112" y="364" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">(284)</text>
+  <rect x="62" y="370" width="118" height="24" rx="6" fill="#FB923C"/>
+  <text x="121" y="386" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Add to Cart</text>
+
+  <!-- Product 2 -->
+  <rect x="198" y="214" width="138" height="190" rx="8" fill="#FFF" stroke="#FED7AA" stroke-width="1"/>
+  <rect x="198" y="214" width="138" height="110" rx="8" fill="#FEF3C7"/>
+  <text x="267" y="278" text-anchor="middle" fill="#D97706" font-size="28" font-family="Arial,sans-serif">👜</text>
+  <rect x="298" y="218" width="34" height="14" rx="4" fill="#10B981"/>
+  <text x="315" y="228" text-anchor="middle" fill="#FFF" font-size="7" font-weight="bold" font-family="Arial,sans-serif">Top Pick</text>
+  <text x="208" y="325" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Leather Tote Bag</text>
+  <text x="208" y="338" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">LuxeCarry Co.</text>
+  <text x="208" y="352" fill="#FB923C" font-size="10" font-weight="bold" font-family="Arial,sans-serif">$124</text>
+  <text x="248" y="352" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">Free ship</text>
+  <text x="208" y="364" fill="#F59E0B" font-size="9" font-family="Arial,sans-serif">★★★★☆</text>
+  <text x="258" y="364" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">(512)</text>
+  <rect x="208" y="370" width="118" height="24" rx="6" fill="#FB923C"/>
+  <text x="267" y="386" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Add to Cart</text>
+
+  <!-- Product 3 -->
+  <rect x="344" y="214" width="138" height="190" rx="8" fill="#FFF" stroke="#FED7AA" stroke-width="1"/>
+  <rect x="344" y="214" width="138" height="110" rx="8" fill="#FFF0F0"/>
+  <text x="413" y="278" text-anchor="middle" fill="#EA580C" font-size="28" font-family="Arial,sans-serif">👠</text>
+  <rect x="344" y="218" width="32" height="14" rx="4" fill="#EF4444"/>
+  <text x="360" y="228" text-anchor="middle" fill="#FFF" font-size="7" font-weight="bold" font-family="Arial,sans-serif">-55%</text>
+  <text x="354" y="325" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Block Heel Pumps</text>
+  <text x="354" y="338" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">StepStyle Store</text>
+  <text x="354" y="352" fill="#FB923C" font-size="10" font-weight="bold" font-family="Arial,sans-serif">$67</text>
+  <text x="394" y="352" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif" text-decoration="line-through">$149</text>
+  <text x="354" y="364" fill="#F59E0B" font-size="9" font-family="Arial,sans-serif">★★★★★</text>
+  <text x="404" y="364" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">(178)</text>
+  <rect x="354" y="370" width="118" height="24" rx="6" fill="#FB923C"/>
+  <text x="413" y="386" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Add to Cart</text>
+
+  <!-- Right: Cart / Checkout panel -->
+  <rect x="510" y="122" width="246" height="338" fill="#FFF"/>
+  <rect x="510" y="122" width="246" height="28" fill="#FFF7ED"/>
+  <text x="524" y="141" fill="#EA580C" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Shopping Cart (3)</text>
+  <text x="748" y="141" text-anchor="end" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">via Stripe Connect</text>
+  <!-- Cart items -->
+  <rect x="518" y="158" width="230" height="38" rx="6" fill="#FFF7ED"/>
+  <rect x="518" y="158" width="32" height="38" rx="4" fill="#FEF3C7"/>
+  <text x="534" y="181" text-anchor="middle" fill="#D97706" font-size="14" font-family="Arial,sans-serif">👗</text>
+  <text x="558" y="172" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Floral Midi Dress</text>
+  <text x="558" y="184" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">SunShine Boutique</text>
+  <text x="740" y="179" text-anchor="end" fill="#FB923C" font-size="9" font-weight="bold" font-family="Arial,sans-serif">$48</text>
+  <rect x="518" y="202" width="230" height="38" rx="6" fill="#FFF7ED"/>
+  <rect x="518" y="202" width="32" height="38" rx="4" fill="#FEF3C7"/>
+  <text x="534" y="225" text-anchor="middle" fill="#D97706" font-size="14" font-family="Arial,sans-serif">👜</text>
+  <text x="558" y="216" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Leather Tote Bag</text>
+  <text x="558" y="228" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">LuxeCarry Co.</text>
+  <text x="740" y="223" text-anchor="end" fill="#FB923C" font-size="9" font-weight="bold" font-family="Arial,sans-serif">$124</text>
+  <rect x="518" y="246" width="230" height="38" rx="6" fill="#FFF7ED"/>
+  <rect x="518" y="246" width="32" height="38" rx="4" fill="#FFF0F0"/>
+  <text x="534" y="269" text-anchor="middle" fill="#EA580C" font-size="14" font-family="Arial,sans-serif">👠</text>
+  <text x="558" y="260" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Block Heel Pumps</text>
+  <text x="558" y="272" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">StepStyle Store</text>
+  <text x="740" y="267" text-anchor="end" fill="#FB923C" font-size="9" font-weight="bold" font-family="Arial,sans-serif">$67</text>
+  <!-- Promo code -->
+  <rect x="518" y="292" width="230" height="24" rx="6" fill="#FFF" stroke="#FED7AA" stroke-width="1"/>
+  <text x="528" y="308" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">Promo code</text>
+  <rect x="698" y="294" width="42" height="20" rx="4" fill="#FB923C"/>
+  <text x="719" y="308" text-anchor="middle" fill="#FFF" font-size="8" font-weight="bold" font-family="Arial,sans-serif">Apply</text>
+  <!-- Order summary -->
+  <line x1="518" y1="325" x2="740" y2="325" stroke="#FED7AA" stroke-width="1"/>
+  <text x="518" y="342" fill="#374151" font-size="9" font-family="Arial,sans-serif">Subtotal</text>
+  <text x="740" y="342" text-anchor="end" fill="#374151" font-size="9" font-family="Arial,sans-serif">$239.00</text>
+  <text x="518" y="358" fill="#374151" font-size="9" font-family="Arial,sans-serif">Shipping</text>
+  <text x="740" y="358" text-anchor="end" fill="#10B981" font-size="9" font-weight="bold" font-family="Arial,sans-serif">FREE</text>
+  <text x="518" y="374" fill="#374151" font-size="9" font-family="Arial,sans-serif">Vendor split (3)</text>
+  <text x="740" y="374" text-anchor="end" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">Auto via Stripe</text>
+  <line x1="518" y1="382" x2="740" y2="382" stroke="#FED7AA" stroke-width="1"/>
+  <text x="518" y="398" fill="#111827" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Total</text>
+  <text x="740" y="398" text-anchor="end" fill="#FB923C" font-size="11" font-weight="bold" font-family="Arial,sans-serif">$239.00</text>
+  <rect x="518" y="406" width="230" height="30" rx="8" fill="#FB923C"/>
+  <text x="633" y="425" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Checkout with Stripe →</text>
+  <text x="633" y="452" text-anchor="middle" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">5,000+ vendors • $2M Q1 GMV • 4.8★ rated</text>
+</svg>

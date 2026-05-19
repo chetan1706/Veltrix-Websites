@@ -1,0 +1,109 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1C0A00"/><stop offset="100%" stop-color="#3A1200"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="100" r="220" fill="#F97316" opacity="0.07"/>
+
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#1C0A00"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="252" y="45" width="252" height="22" rx="11" fill="#2D1000"/>
+  <text x="378" y="61" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">app.gohighlevel.com / pipeline</text>
+
+  <!-- Header -->
+  <rect x="44" y="78" width="712" height="44" fill="#FFF7ED"/>
+  <text x="64" y="106" fill="#9A3412" font-size="13" font-weight="bold" font-family="Arial,sans-serif">⚡ GoHighLevel CRM</text>
+  <text x="210" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Pipeline</text>
+  <text x="270" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Contacts</text>
+  <text x="342" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Automation</text>
+  <text x="427" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Campaigns</text>
+  <rect x="620" y="88" width="120" height="22" rx="6" fill="#F97316"/>
+  <text x="680" y="103" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">+ Add Contact</text>
+
+  <!-- Kanban pipeline -->
+  <!-- Column 1: New Leads -->
+  <rect x="52" y="134" width="160" height="320" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1.5"/>
+  <rect x="52" y="134" width="160" height="32" rx="8" fill="#F97316"/>
+  <rect x="52" y="152" width="160" height="14" fill="#F97316"/>
+  <text x="132" y="155" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">New Leads</text>
+  <rect x="150" y="137" width="20" height="18" rx="9" fill="rgba(255,255,255,0.3)"/>
+  <text x="160" y="150" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">8</text>
+  <!-- Lead cards -->
+  <rect x="60" y="174" width="144" height="58" rx="6" fill="#FFF" stroke="#FED7AA" stroke-width="1"/>
+  <circle cx="76" cy="196" r="10" fill="#FEF3C7"/>
+  <text x="76" y="200" text-anchor="middle" fill="#D97706" font-size="9" font-weight="bold" font-family="Arial,sans-serif">JD</text>
+  <text x="92" y="192" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">James Davis</text>
+  <text x="92" y="204" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">james@acme.com</text>
+  <text x="60" y="222" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">📱 Form submission • 2h ago</text>
+  <rect x="60" y="238" width="144" height="58" rx="6" fill="#FFF" stroke="#FED7AA" stroke-width="1"/>
+  <circle cx="76" cy="260" r="10" fill="#FCE7F3"/>
+  <text x="76" y="264" text-anchor="middle" fill="#DB2777" font-size="9" font-weight="bold" font-family="Arial,sans-serif">SM</text>
+  <text x="92" y="256" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Sarah Miller</text>
+  <text x="92" y="268" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">sarah@techco.io</text>
+  <text x="60" y="286" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">🌐 Website visit • 5h ago</text>
+
+  <!-- Column 2: Contacted -->
+  <rect x="222" y="134" width="160" height="320" rx="8" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.5"/>
+  <rect x="222" y="134" width="160" height="32" rx="8" fill="#F59E0B"/>
+  <rect x="222" y="152" width="160" height="14" fill="#F59E0B"/>
+  <text x="302" y="155" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Contacted</text>
+  <rect x="318" y="137" width="20" height="18" rx="9" fill="rgba(255,255,255,0.3)"/>
+  <text x="328" y="150" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">5</text>
+  <rect x="230" y="174" width="144" height="58" rx="6" fill="#FFF" stroke="#FDE68A" stroke-width="1"/>
+  <circle cx="246" cy="196" r="10" fill="#DBEAFE"/>
+  <text x="246" y="200" text-anchor="middle" fill="#2563EB" font-size="9" font-weight="bold" font-family="Arial,sans-serif">RK</text>
+  <text x="262" y="192" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Raj Kumar</text>
+  <text x="262" y="204" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">raj@startup.in</text>
+  <text x="230" y="222" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">📧 Email sent • 1d ago</text>
+  <rect x="230" y="238" width="144" height="58" rx="6" fill="#FFF" stroke="#FDE68A" stroke-width="1"/>
+  <circle cx="246" cy="260" r="10" fill="#D1FAE5"/>
+  <text x="246" y="264" text-anchor="middle" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial,sans-serif">AL</text>
+  <text x="262" y="256" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Amy Lewis</text>
+  <text x="262" y="268" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">amy@bloom.co</text>
+  <text x="230" y="286" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">📞 Call booked • 2d ago</text>
+
+  <!-- Column 3: Qualified -->
+  <rect x="392" y="134" width="160" height="320" rx="8" fill="#F0FDF4" stroke="#6EE7B7" stroke-width="1.5"/>
+  <rect x="392" y="134" width="160" height="32" rx="8" fill="#059669"/>
+  <rect x="392" y="152" width="160" height="14" fill="#059669"/>
+  <text x="472" y="155" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Qualified</text>
+  <rect x="488" y="137" width="20" height="18" rx="9" fill="rgba(255,255,255,0.3)"/>
+  <text x="498" y="150" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">3</text>
+  <rect x="400" y="174" width="144" height="72" rx="6" fill="#FFF" stroke="#6EE7B7" stroke-width="1.5"/>
+  <circle cx="416" cy="198" r="10" fill="#EDE9FE"/>
+  <text x="416" y="202" text-anchor="middle" fill="#7C3AED" font-size="9" font-weight="bold" font-family="Arial,sans-serif">TM</text>
+  <text x="432" y="194" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">Tom Marsh</text>
+  <text x="432" y="206" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">CTO • MegaCorp</text>
+  <text x="432" y="218" fill="#059669" font-size="8" font-weight="bold" font-family="Arial,sans-serif">$24,000 deal</text>
+  <text x="400" y="236" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">💼 Demo scheduled tomorrow</text>
+
+  <!-- Column 4: Won -->
+  <rect x="562" y="134" width="190" height="320" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="562" y="134" width="190" height="32" rx="8" fill="#1D4ED8"/>
+  <rect x="562" y="152" width="190" height="14" fill="#1D4ED8"/>
+  <text x="657" y="155" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Won ✓</text>
+  <rect x="724" y="137" width="20" height="18" rx="9" fill="rgba(255,255,255,0.3)"/>
+  <text x="734" y="150" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">2</text>
+  <rect x="570" y="174" width="174" height="80" rx="6" fill="#FFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <circle cx="588" cy="202" r="12" fill="#DCFCE7"/>
+  <text x="588" y="207" text-anchor="middle" fill="#16A34A" font-size="9" font-weight="bold" font-family="Arial,sans-serif">✓</text>
+  <text x="608" y="194" fill="#111827" font-size="9" font-weight="bold" font-family="Arial,sans-serif">FinTech Solutions Ltd</text>
+  <text x="608" y="206" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">Contract signed</text>
+  <text x="608" y="218" fill="#1D4ED8" font-size="10" font-weight="bold" font-family="Arial,sans-serif">$48,000</text>
+  <text x="570" y="242" fill="#9CA3AF" font-size="8" font-family="Arial,sans-serif">🏆 Closed May 15 • 3 mo deal</text>
+
+  <!-- Automation trigger badges -->
+  <rect x="570" y="264" width="174" height="36" rx="6" fill="#F0FDF4" stroke="#6EE7B7" stroke-width="1"/>
+  <text x="584" y="278" fill="#065F46" font-size="9" font-weight="bold" font-family="Arial,sans-serif">⚡ Automation Triggered</text>
+  <text x="584" y="292" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">Welcome email + SMS sent</text>
+
+  <!-- Pipeline summary -->
+  <rect x="52" y="458" width="700" height="0" rx="0" fill="none"/>
+  <text x="64" y="455" fill="#374151" font-size="9" font-family="Arial,sans-serif">Pipeline Total: <tspan font-weight="bold" fill="#F97316">$72,000</tspan> • Conversion: <tspan font-weight="bold" fill="#22C55E">28%</tspan> • Avg close: <tspan font-weight="bold">18 days</tspan></text>
+</svg>

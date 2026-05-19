@@ -1,0 +1,102 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/><stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="160" cy="110" r="200" fill="#3B82F6" opacity="0.06"/>
+  <circle cx="680" cy="420" r="160" fill="#3B82F6" opacity="0.04"/>
+
+  <!-- Browser window -->
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#1E293B"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="252" y="45" width="252" height="22" rx="11" fill="#2D3748"/>
+  <text x="378" y="61" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">jobwizard.app / listings</text>
+
+  <!-- Top bar -->
+  <rect x="44" y="78" width="712" height="40" fill="#F8FAFC"/>
+  <rect x="60" y="89" width="76" height="18" rx="9" fill="#3B82F6"/>
+  <text x="98" y="102" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">+ Post Job</text>
+  <text x="160" y="103" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">All (247)</text>
+  <text x="215" y="103" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Active (182)</text>
+  <text x="285" y="103" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Drafts (12)</text>
+  <rect x="540" y="86" width="196" height="24" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="638" y="102" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">Search jobs...</text>
+
+  <!-- Left sidebar -->
+  <rect x="44" y="118" width="168" height="342" fill="#F8FAFC"/>
+  <rect x="212" y="118" width="1" height="342" fill="#E2E8F0"/>
+  <text x="60" y="142" fill="#374151" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Filters</text>
+  <text x="60" y="162" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">JOB TYPE</text>
+  <rect x="60" y="170" width="12" height="12" rx="2" fill="#3B82F6"/>
+  <text x="78" y="181" fill="#374151" font-size="10" font-family="Arial,sans-serif">Full-time</text>
+  <rect x="60" y="188" width="12" height="12" rx="2" fill="#E2E8F0" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="78" y="199" fill="#374151" font-size="10" font-family="Arial,sans-serif">Part-time</text>
+  <rect x="60" y="206" width="12" height="12" rx="2" fill="#E2E8F0" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="78" y="217" fill="#374151" font-size="10" font-family="Arial,sans-serif">Remote</text>
+  <rect x="44" y="232" width="168" height="1" fill="#E2E8F0"/>
+  <text x="60" y="252" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">EXPERIENCE</text>
+  <rect x="60" y="260" width="136" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="60" y="260" width="88" height="6" rx="3" fill="#3B82F6"/>
+  <circle cx="148" cy="263" r="7" fill="#3B82F6" stroke="#FFF" stroke-width="2"/>
+  <text x="60" y="286" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">LOCATION</text>
+  <rect x="60" y="294" width="136" height="22" rx="4" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="70" y="309" fill="#9CA3AF" font-size="10" font-family="Arial,sans-serif">Any location</text>
+  <text x="60" y="334" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">SALARY RANGE</text>
+  <rect x="60" y="342" width="136" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="60" y="342" width="96" height="6" rx="3" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="156" cy="345" r="7" fill="#3B82F6" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Job cards -->
+  <rect x="213" y="118" width="543" height="85" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="213" y="118" width="543" height="85" fill="#EFF6FF" opacity="0.35"/>
+  <circle cx="246" cy="155" r="20" fill="#DBEAFE"/>
+  <text x="246" y="161" text-anchor="middle" fill="#3B82F6" font-size="14" font-weight="bold" font-family="Arial,sans-serif">SR</text>
+  <text x="275" y="148" fill="#111827" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Senior Frontend Developer</text>
+  <text x="275" y="163" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">TechCorp GmbH • Berlin, Germany • Remote OK</text>
+  <rect x="275" y="172" width="48" height="15" rx="7" fill="#DBEAFE"/>
+  <text x="299" y="184" text-anchor="middle" fill="#2563EB" font-size="9" font-family="Arial,sans-serif">Full-time</text>
+  <rect x="328" y="172" width="44" height="15" rx="7" fill="#DCFCE7"/>
+  <text x="350" y="184" text-anchor="middle" fill="#16A34A" font-size="9" font-family="Arial,sans-serif">Remote</text>
+  <text x="720" y="148" text-anchor="end" fill="#374151" font-size="11" font-weight="bold" font-family="Arial,sans-serif">€70k/yr</text>
+  <rect x="660" y="156" width="76" height="22" rx="6" fill="#3B82F6"/>
+  <text x="698" y="171" text-anchor="middle" fill="#FFF" font-size="10" font-family="Arial,sans-serif">Apply Now</text>
+  <text x="720" y="194" text-anchor="end" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">Posted 2h ago • 43 applicants</text>
+
+  <rect x="213" y="205" width="543" height="85" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="246" cy="242" r="20" fill="#FCE7F3"/>
+  <text x="246" y="248" text-anchor="middle" fill="#DB2777" font-size="13" font-weight="bold" font-family="Arial,sans-serif">PM</text>
+  <text x="275" y="235" fill="#111827" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Product Manager – SaaS Products</text>
+  <text x="275" y="250" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">StartupHub • London, UK</text>
+  <rect x="275" y="259" width="48" height="15" rx="7" fill="#DBEAFE"/>
+  <text x="299" y="271" text-anchor="middle" fill="#2563EB" font-size="9" font-family="Arial,sans-serif">Full-time</text>
+  <text x="720" y="235" text-anchor="end" fill="#374151" font-size="11" font-weight="bold" font-family="Arial,sans-serif">£85k/yr</text>
+  <rect x="660" y="243" width="76" height="22" rx="6" fill="#E2E8F0"/>
+  <text x="698" y="258" text-anchor="middle" fill="#374151" font-size="10" font-family="Arial,sans-serif">View Job</text>
+  <text x="720" y="281" text-anchor="end" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">Posted 1d ago • 128 applicants</text>
+
+  <rect x="213" y="292" width="543" height="85" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="246" cy="329" r="20" fill="#F0FDF4"/>
+  <text x="246" y="335" text-anchor="middle" fill="#16A34A" font-size="13" font-weight="bold" font-family="Arial,sans-serif">BE</text>
+  <text x="275" y="322" fill="#111827" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Backend Engineer – Node.js / Go</text>
+  <text x="275" y="337" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">DataFlow Inc • Remote Worldwide</text>
+  <rect x="275" y="346" width="52" height="15" rx="7" fill="#DCFCE7"/>
+  <text x="301" y="358" text-anchor="middle" fill="#16A34A" font-size="9" font-family="Arial,sans-serif">Contract</text>
+  <text x="720" y="322" text-anchor="end" fill="#374151" font-size="11" font-weight="bold" font-family="Arial,sans-serif">$90k/yr</text>
+  <rect x="660" y="330" width="76" height="22" rx="6" fill="#E2E8F0"/>
+  <text x="698" y="345" text-anchor="middle" fill="#374151" font-size="10" font-family="Arial,sans-serif">View Job</text>
+
+  <rect x="213" y="379" width="543" height="81" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="246" cy="416" r="20" fill="#FEF3C7"/>
+  <text x="246" y="422" text-anchor="middle" fill="#D97706" font-size="13" font-weight="bold" font-family="Arial,sans-serif">UX</text>
+  <text x="275" y="409" fill="#111827" font-size="12" font-weight="bold" font-family="Arial,sans-serif">UI/UX Designer – Mobile Apps</text>
+  <text x="275" y="424" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">CreativeStudio • Dubai, UAE • Hybrid</text>
+  <rect x="275" y="433" width="52" height="15" rx="7" fill="#FEF3C7"/>
+  <text x="301" y="445" text-anchor="middle" fill="#D97706" font-size="9" font-family="Arial,sans-serif">Part-time</text>
+  <text x="720" y="409" text-anchor="end" fill="#374151" font-size="11" font-weight="bold" font-family="Arial,sans-serif">$55k/yr</text>
+</svg>

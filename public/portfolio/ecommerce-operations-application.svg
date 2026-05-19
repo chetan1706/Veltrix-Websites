@@ -1,0 +1,102 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#022C22"/><stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="150" cy="120" r="200" fill="#10B981" opacity="0.07"/>
+  <circle cx="680" cy="420" r="160" fill="#10B981" opacity="0.04"/>
+
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#064E3B"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="252" y="45" width="252" height="22" rx="11" fill="#065F46"/>
+  <text x="378" y="61" text-anchor="middle" fill="#6EE7B7" font-size="10" font-family="Arial,sans-serif">store.operations / products</text>
+
+  <!-- Top nav -->
+  <rect x="44" y="78" width="712" height="44" fill="#F0FDF4"/>
+  <text x="64" y="106" fill="#065F46" font-size="13" font-weight="bold" font-family="Arial,sans-serif">🛒 ShopOps</text>
+  <text x="175" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Products</text>
+  <text x="240" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Orders</text>
+  <text x="300" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Inventory</text>
+  <text x="365" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Analytics</text>
+  <rect x="540" y="88" width="160" height="24" rx="12" fill="#D1FAE5" stroke="#6EE7B7" stroke-width="1"/>
+  <text x="620" y="104" text-anchor="middle" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Search products...</text>
+  <rect x="706" y="89" width="38" height="22" rx="6" fill="#10B981"/>
+  <text x="725" y="104" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">🛒 3</text>
+
+  <!-- Product grid (main area) -->
+  <rect x="44" y="122" width="480" height="338" fill="#F8FAFC"/>
+
+  <!-- Product card 1 -->
+  <rect x="58" y="132" width="140" height="160" rx="8" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="58" y="132" width="140" height="90" rx="8" fill="#D1FAE5"/>
+  <text x="128" y="185" text-anchor="middle" fill="#10B981" font-size="32" font-family="Arial,sans-serif">👟</text>
+  <text x="128" y="238" text-anchor="middle" fill="#111827" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Sneaker Pro X1</text>
+  <text x="128" y="252" text-anchor="middle" fill="#10B981" font-size="11" font-weight="bold" font-family="Arial,sans-serif">$129.99</text>
+  <text x="128" y="265" text-anchor="middle" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">In stock: 342</text>
+  <rect x="70" y="273" width="116" height="14" rx="4" fill="#10B981"/>
+  <text x="128" y="284" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">Add to Cart</text>
+
+  <!-- Product card 2 -->
+  <rect x="208" y="132" width="140" height="160" rx="8" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="208" y="132" width="140" height="90" rx="8" fill="#FEF3C7"/>
+  <text x="278" y="185" text-anchor="middle" fill="#D97706" font-size="32" font-family="Arial,sans-serif">👜</text>
+  <text x="278" y="238" text-anchor="middle" fill="#111827" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Leather Tote Bag</text>
+  <text x="278" y="252" text-anchor="middle" fill="#10B981" font-size="11" font-weight="bold" font-family="Arial,sans-serif">$89.00</text>
+  <text x="278" y="265" text-anchor="middle" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">In stock: 58</text>
+  <rect x="220" y="273" width="116" height="14" rx="4" fill="#D1FAE5"/>
+  <text x="278" y="284" text-anchor="middle" fill="#065F46" font-size="9" font-family="Arial,sans-serif">Add to Cart</text>
+
+  <!-- Product card 3 -->
+  <rect x="358" y="132" width="140" height="160" rx="8" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="358" y="132" width="140" height="90" rx="8" fill="#EFF6FF"/>
+  <text x="428" y="185" text-anchor="middle" fill="#3B82F6" font-size="32" font-family="Arial,sans-serif">🎧</text>
+  <text x="428" y="238" text-anchor="middle" fill="#111827" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Wireless Headphones</text>
+  <text x="428" y="252" text-anchor="middle" fill="#10B981" font-size="11" font-weight="bold" font-family="Arial,sans-serif">$199.00</text>
+  <text x="428" y="265" text-anchor="middle" fill="#EF4444" font-size="9" font-family="Arial,sans-serif">Low stock: 8</text>
+  <rect x="370" y="273" width="116" height="14" rx="4" fill="#10B981"/>
+  <text x="428" y="284" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">Add to Cart</text>
+
+  <!-- Second row -->
+  <rect x="58" y="304" width="440" height="68" rx="8" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="58" y="304" width="80" height="68" rx="8" fill="#FCE7F3"/>
+  <text x="98" y="345" text-anchor="middle" fill="#DB2777" font-size="28" font-family="Arial,sans-serif">⌚</text>
+  <text x="155" y="326" fill="#111827" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Smart Watch Series 5</text>
+  <text x="155" y="342" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Electronics • SKU: SW-005-BLK</text>
+  <text x="155" y="358" fill="#10B981" font-size="11" font-weight="bold" font-family="Arial,sans-serif">$249.99</text>
+  <rect x="370" y="316" width="116" height="26" rx="6" fill="#10B981"/>
+  <text x="428" y="333" text-anchor="middle" fill="#FFF" font-size="10" font-family="Arial,sans-serif">Quick Add</text>
+  <text x="155" y="372" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">In stock: 124 units • Rating: ⭐ 4.8</text>
+
+  <!-- Order summary sidebar -->
+  <rect x="524" y="122" width="232" height="338" rx="0" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="524" y="122" width="232" height="44" fill="#F0FDF4"/>
+  <text x="540" y="148" fill="#065F46" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Order Summary</text>
+  <text x="538" y="185" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Sneaker Pro X1</text>
+  <text x="744" y="185" text-anchor="end" fill="#374151" font-size="10" font-family="Arial,sans-serif">$129.99</text>
+  <text x="538" y="205" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Wireless Headphones</text>
+  <text x="744" y="205" text-anchor="end" fill="#374151" font-size="10" font-family="Arial,sans-serif">$199.00</text>
+  <text x="538" y="225" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Leather Tote Bag</text>
+  <text x="744" y="225" text-anchor="end" fill="#374151" font-size="10" font-family="Arial,sans-serif">$89.00</text>
+  <rect x="524" y="238" width="232" height="1" fill="#E2E8F0"/>
+  <text x="538" y="255" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Subtotal</text>
+  <text x="744" y="255" text-anchor="end" fill="#374151" font-size="10" font-family="Arial,sans-serif">$417.99</text>
+  <text x="538" y="272" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Shipping</text>
+  <text x="744" y="272" text-anchor="end" fill="#16A34A" font-size="10" font-family="Arial,sans-serif">Free</text>
+  <text x="538" y="289" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Tax (8%)</text>
+  <text x="744" y="289" text-anchor="end" fill="#374151" font-size="10" font-family="Arial,sans-serif">$33.44</text>
+  <rect x="524" y="298" width="232" height="1" fill="#E2E8F0"/>
+  <text x="538" y="318" fill="#111827" font-size="13" font-weight="bold" font-family="Arial,sans-serif">Total</text>
+  <text x="744" y="318" text-anchor="end" fill="#10B981" font-size="14" font-weight="bold" font-family="Arial,sans-serif">$451.43</text>
+  <rect x="536" y="330" width="212" height="32" rx="8" fill="#10B981"/>
+  <text x="642" y="350" text-anchor="middle" fill="#FFF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">Proceed to Checkout</text>
+  <rect x="536" y="370" width="212" height="28" rx="8" fill="#F0FDF4" stroke="#6EE7B7" stroke-width="1"/>
+  <text x="642" y="388" text-anchor="middle" fill="#065F46" font-size="10" font-family="Arial,sans-serif">Continue Shopping</text>
+  <text x="640" y="425" text-anchor="middle" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">🔒 Secure checkout • SSL encrypted</text>
+  <text x="640" y="442" text-anchor="middle" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">Free returns within 30 days</text>
+</svg>

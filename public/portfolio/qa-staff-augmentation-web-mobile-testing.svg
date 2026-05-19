@@ -1,0 +1,163 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A0A0A"/><stop offset="100%" stop-color="#2D0F0F"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="100" r="220" fill="#EF4444" opacity="0.06"/>
+
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#1A0A0A"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="252" y="45" width="252" height="22" rx="11" fill="#2A1010"/>
+  <text x="378" y="61" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">qa-platform.app / test-suite</text>
+
+  <!-- Header -->
+  <rect x="44" y="78" width="712" height="44" fill="#FFF5F5"/>
+  <text x="64" y="106" fill="#991B1B" font-size="13" font-weight="bold" font-family="Arial,sans-serif">🧪 QA Test Suite</text>
+  <text x="195" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Test Cases</text>
+  <text x="270" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Bug Reports</text>
+  <text x="355" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Coverage</text>
+  <text x="424" y="106" fill="#6B7280" font-size="10" font-family="Arial,sans-serif">Regression</text>
+  <rect x="580" y="88" width="56" height="22" rx="6" fill="#DCFCE7"/>
+  <text x="608" y="103" text-anchor="middle" fill="#16A34A" font-size="9" font-weight="bold" font-family="Arial,sans-serif">● CI Live</text>
+  <rect x="644" y="88" width="104" height="22" rx="6" fill="#EF4444"/>
+  <text x="696" y="103" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">+ Log Bug</text>
+
+  <!-- Stats row -->
+  <rect x="44" y="122" width="712" height="52" fill="#F8FAFC"/>
+  <rect x="44" y="174" width="712" height="1" fill="#E2E8F0"/>
+  <rect x="60" y="130" width="120" height="36" rx="8" fill="#DCFCE7" stroke="#6EE7B7" stroke-width="1"/>
+  <text x="120" y="148" text-anchor="middle" fill="#065F46" font-size="11" font-weight="bold" font-family="Arial,sans-serif">142 Passed</text>
+  <text x="120" y="161" text-anchor="middle" fill="#16A34A" font-size="9" font-family="Arial,sans-serif">▲ 12 today</text>
+  <rect x="194" y="130" width="120" height="36" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1"/>
+  <text x="254" y="148" text-anchor="middle" fill="#991B1B" font-size="11" font-weight="bold" font-family="Arial,sans-serif">8 Failed</text>
+  <text x="254" y="161" text-anchor="middle" fill="#EF4444" font-size="9" font-family="Arial,sans-serif">3 critical</text>
+  <rect x="328" y="130" width="120" height="36" rx="8" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+  <text x="388" y="148" text-anchor="middle" fill="#92400E" font-size="11" font-weight="bold" font-family="Arial,sans-serif">14 Pending</text>
+  <text x="388" y="161" text-anchor="middle" fill="#D97706" font-size="9" font-family="Arial,sans-serif">In queue</text>
+  <rect x="462" y="130" width="130" height="36" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="527" y="148" text-anchor="middle" fill="#1E40AF" font-size="11" font-weight="bold" font-family="Arial,sans-serif">78% Coverage</text>
+  <text x="527" y="161" text-anchor="middle" fill="#2563EB" font-size="9" font-family="Arial,sans-serif">Target: 85%</text>
+  <rect x="606" y="130" width="130" height="36" rx="8" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
+  <text x="671" y="148" text-anchor="middle" fill="#5B21B6" font-size="11" font-weight="bold" font-family="Arial,sans-serif">94.8% Pass Rate</text>
+  <text x="671" y="161" text-anchor="middle" fill="#7C3AED" font-size="9" font-family="Arial,sans-serif">Sprint average</text>
+
+  <!-- Left: Test cases table -->
+  <rect x="44" y="175" width="430" height="285" fill="#FFF"/>
+  <rect x="44" y="175" width="430" height="26" fill="#F8FAFC"/>
+  <text x="56" y="193" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">TEST CASE</text>
+  <text x="260" y="193" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">TYPE</text>
+  <text x="330" y="193" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">PRIORITY</text>
+  <text x="415" y="193" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">STATUS</text>
+
+  <!-- Test case rows -->
+  <rect x="44" y="201" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="219" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-001: User login flow</text>
+  <text x="260" y="219" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Functional</text>
+  <rect x="330" y="209" width="48" height="14" rx="7" fill="#FEF3C7"/>
+  <text x="354" y="220" text-anchor="middle" fill="#D97706" font-size="8" font-family="Arial,sans-serif">High</text>
+  <rect x="406" y="209" width="56" height="14" rx="7" fill="#DCFCE7"/>
+  <text x="434" y="220" text-anchor="middle" fill="#16A34A" font-size="8" font-family="Arial,sans-serif">✓ Pass</text>
+
+  <rect x="44" y="223" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="241" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-002: Payment checkout</text>
+  <text x="260" y="241" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Integration</text>
+  <rect x="330" y="231" width="48" height="14" rx="7" fill="#FEE2E2"/>
+  <text x="354" y="242" text-anchor="middle" fill="#EF4444" font-size="8" font-family="Arial,sans-serif">Critical</text>
+  <rect x="406" y="231" width="56" height="14" rx="7" fill="#FEF2F2"/>
+  <text x="434" y="242" text-anchor="middle" fill="#EF4444" font-size="8" font-family="Arial,sans-serif">✗ Fail</text>
+
+  <rect x="44" y="245" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="263" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-003: Profile update</text>
+  <text x="260" y="263" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Regression</text>
+  <rect x="330" y="253" width="48" height="14" rx="7" fill="#DBEAFE"/>
+  <text x="354" y="264" text-anchor="middle" fill="#2563EB" font-size="8" font-family="Arial,sans-serif">Medium</text>
+  <rect x="406" y="253" width="56" height="14" rx="7" fill="#DCFCE7"/>
+  <text x="434" y="264" text-anchor="middle" fill="#16A34A" font-size="8" font-family="Arial,sans-serif">✓ Pass</text>
+
+  <rect x="44" y="267" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="285" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-004: Mobile nav menu</text>
+  <text x="260" y="285" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">UI/UX</text>
+  <rect x="330" y="275" width="48" height="14" rx="7" fill="#DBEAFE"/>
+  <text x="354" y="286" text-anchor="middle" fill="#2563EB" font-size="8" font-family="Arial,sans-serif">Medium</text>
+  <rect x="406" y="275" width="56" height="14" rx="7" fill="#DCFCE7"/>
+  <text x="434" y="286" text-anchor="middle" fill="#16A34A" font-size="8" font-family="Arial,sans-serif">✓ Pass</text>
+
+  <rect x="44" y="289" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="307" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-005: File upload limit</text>
+  <text x="260" y="307" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Boundary</text>
+  <rect x="330" y="297" width="48" height="14" rx="7" fill="#FEF3C7"/>
+  <text x="354" y="308" text-anchor="middle" fill="#D97706" font-size="8" font-family="Arial,sans-serif">High</text>
+  <rect x="406" y="297" width="56" height="14" rx="7" fill="#FEE2E2"/>
+  <text x="434" y="308" text-anchor="middle" fill="#EF4444" font-size="8" font-family="Arial,sans-serif">✗ Fail</text>
+
+  <rect x="44" y="311" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="329" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-006: Search filters</text>
+  <text x="260" y="329" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Functional</text>
+  <rect x="330" y="319" width="48" height="14" rx="7" fill="#DBEAFE"/>
+  <text x="354" y="330" text-anchor="middle" fill="#2563EB" font-size="8" font-family="Arial,sans-serif">Medium</text>
+  <rect x="406" y="319" width="56" height="14" rx="7" fill="#FFFBEB"/>
+  <text x="434" y="330" text-anchor="middle" fill="#D97706" font-size="8" font-family="Arial,sans-serif">Pending</text>
+
+  <rect x="44" y="333" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="351" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-007: Cross-browser compat.</text>
+  <text x="260" y="351" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Compat.</text>
+  <rect x="330" y="341" width="48" height="14" rx="7" fill="#FEE2E2"/>
+  <text x="354" y="352" text-anchor="middle" fill="#EF4444" font-size="8" font-family="Arial,sans-serif">Critical</text>
+  <rect x="406" y="341" width="56" height="14" rx="7" fill="#DCFCE7"/>
+  <text x="434" y="352" text-anchor="middle" fill="#16A34A" font-size="8" font-family="Arial,sans-serif">✓ Pass</text>
+
+  <rect x="44" y="355" width="430" height="1" fill="#E2E8F0"/>
+  <text x="56" y="373" fill="#374151" font-size="10" font-family="Arial,sans-serif">TC-008: Session timeout</text>
+  <text x="260" y="373" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Security</text>
+  <rect x="330" y="363" width="48" height="14" rx="7" fill="#FEE2E2"/>
+  <text x="354" y="374" text-anchor="middle" fill="#EF4444" font-size="8" font-family="Arial,sans-serif">Critical</text>
+  <rect x="406" y="363" width="56" height="14" rx="7" fill="#DCFCE7"/>
+  <text x="434" y="374" text-anchor="middle" fill="#16A34A" font-size="8" font-family="Arial,sans-serif">✓ Pass</text>
+
+  <!-- Right panel: Coverage + Bug severity -->
+  <rect x="474" y="175" width="282" height="285" fill="#FFF"/>
+  <text x="488" y="198" fill="#374151" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Coverage by Module</text>
+  <text x="488" y="216" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Authentication</text>
+  <rect x="570" y="208" width="160" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="570" y="208" width="150" height="8" rx="4" fill="#16A34A"/>
+  <text x="734" y="217" text-anchor="end" fill="#374151" font-size="8" font-family="Arial,sans-serif">94%</text>
+
+  <text x="488" y="236" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Payment</text>
+  <rect x="570" y="228" width="160" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="570" y="228" width="112" height="8" rx="4" fill="#F59E0B"/>
+  <text x="734" y="237" text-anchor="end" fill="#374151" font-size="8" font-family="Arial,sans-serif">70%</text>
+
+  <text x="488" y="256" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">User Profile</text>
+  <rect x="570" y="248" width="160" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="570" y="248" width="140" height="8" rx="4" fill="#16A34A"/>
+  <text x="734" y="257" text-anchor="end" fill="#374151" font-size="8" font-family="Arial,sans-serif">88%</text>
+
+  <text x="488" y="276" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Search</text>
+  <rect x="570" y="268" width="160" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="570" y="268" width="96" height="8" rx="4" fill="#EF4444"/>
+  <text x="734" y="277" text-anchor="end" fill="#374151" font-size="8" font-family="Arial,sans-serif">60%</text>
+
+  <text x="488" y="296" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Mobile App</text>
+  <rect x="570" y="288" width="160" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="570" y="288" width="130" height="8" rx="4" fill="#16A34A"/>
+  <text x="734" y="297" text-anchor="end" fill="#374151" font-size="8" font-family="Arial,sans-serif">81%</text>
+
+  <rect x="474" y="310" width="282" height="1" fill="#E2E8F0"/>
+  <text x="488" y="328" fill="#374151" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Bug Severity</text>
+  <rect x="488" y="336" width="16" height="16" rx="4" fill="#EF4444"/>
+  <text x="510" y="348" fill="#374151" font-size="9" font-family="Arial,sans-serif">Critical: 3</text>
+  <rect x="580" y="336" width="16" height="16" rx="4" fill="#F59E0B"/>
+  <text x="602" y="348" fill="#374151" font-size="9" font-family="Arial,sans-serif">High: 8</text>
+  <rect x="660" y="336" width="16" height="16" rx="4" fill="#3B82F6"/>
+  <text x="682" y="348" fill="#374151" font-size="9" font-family="Arial,sans-serif">Low: 14</text>
+  <text x="488" y="380" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Avg fix time: 1.4 days</text>
+  <text x="488" y="396" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Open bugs: 25 • Closed: 142</text>
+  <rect x="488" y="410" width="260" height="28" rx="6" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1"/>
+  <text x="618" y="428" text-anchor="middle" fill="#EF4444" font-size="9" font-weight="bold" font-family="Arial,sans-serif">⚠ 3 Critical bugs need immediate fix</text>
+</svg>

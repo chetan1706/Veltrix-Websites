@@ -1,0 +1,126 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1B35"/><stop offset="100%" stop-color="#1E3A5F"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="120" r="220" fill="#F97316" opacity="0.06"/>
+  <circle cx="700" cy="450" r="150" fill="#F97316" opacity="0.04"/>
+
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#1A2744"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="252" y="45" width="252" height="22" rx="11" fill="#243150"/>
+  <text x="378" y="61" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">qudos.dispatch / live</text>
+
+  <!-- Left: Map panel -->
+  <rect x="44" y="78" width="390" height="382" fill="#E8F4F8"/>
+  <!-- Map grid -->
+  <line x1="44" y1="130" x2="434" y2="130" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="44" y1="182" x2="434" y2="182" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="44" y1="234" x2="434" y2="234" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="44" y1="286" x2="434" y2="286" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="44" y1="338" x2="434" y2="338" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="44" y1="390" x2="434" y2="390" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="96" y1="78" x2="96" y2="460" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="148" y1="78" x2="148" y2="460" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="200" y1="78" x2="200" y2="460" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="252" y1="78" x2="252" y2="460" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="304" y1="78" x2="304" y2="460" stroke="#CBD5E1" stroke-width="0.5"/>
+  <line x1="356" y1="78" x2="356" y2="460" stroke="#CBD5E1" stroke-width="0.5"/>
+
+  <!-- Roads -->
+  <rect x="148" y="78" width="8" height="382" fill="#D1D5DB"/>
+  <rect x="304" y="78" width="8" height="382" fill="#D1D5DB"/>
+  <rect x="44" y="234" width="390" height="8" fill="#D1D5DB"/>
+  <rect x="44" y="338" width="390" height="8" fill="#D1D5DB"/>
+
+  <!-- Route lines -->
+  <path d="M120 180 L220 180 L220 260 L310 260 L310 200" stroke="#F97316" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="8 4" opacity="0.8"/>
+  <path d="M160 350 L250 350 L250 290 L380 290" stroke="#3B82F6" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="8 4" opacity="0.7"/>
+
+  <!-- Vehicle pins -->
+  <circle cx="120" cy="180" r="10" fill="#F97316"/>
+  <text x="120" y="185" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">🚗</text>
+  <circle cx="310" cy="200" r="10" fill="#22C55E"/>
+  <text x="310" y="205" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">🚕</text>
+  <circle cx="160" cy="350" r="10" fill="#3B82F6"/>
+  <text x="160" y="355" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">🚗</text>
+  <circle cx="380" cy="290" r="10" fill="#F97316"/>
+  <text x="380" y="295" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">🚕</text>
+
+  <!-- Map overlay badge -->
+  <rect x="56" y="90" width="120" height="28" rx="8" fill="#FFF" opacity="0.9"/>
+  <text x="116" y="108" text-anchor="middle" fill="#F97316" font-size="10" font-weight="bold" font-family="Arial,sans-serif">● 12 Active Rides</text>
+
+  <!-- Right: Dispatch panel -->
+  <rect x="434" y="78" width="322" height="382" fill="#FFF"/>
+  <rect x="434" y="78" width="322" height="44" fill="#F8FAFC"/>
+  <text x="450" y="105" fill="#111827" font-size="12" font-weight="bold" font-family="Arial,sans-serif">Live Dispatch Queue</text>
+  <rect x="660" y="88" width="80" height="22" rx="6" fill="#F97316"/>
+  <text x="700" y="103" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">+ New Ride</text>
+
+  <!-- Table header -->
+  <rect x="434" y="122" width="322" height="24" fill="#F1F5F9"/>
+  <text x="448" y="138" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">RIDE ID</text>
+  <text x="520" y="138" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">DRIVER</text>
+  <text x="600" y="138" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">STATUS</text>
+  <text x="680" y="138" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">ETA</text>
+
+  <!-- Ride rows -->
+  <rect x="434" y="146" width="322" height="36" fill="#FFF"/>
+  <rect x="434" y="182" width="322" height="1" fill="#E2E8F0"/>
+  <text x="448" y="169" fill="#374151" font-size="10" font-family="Arial,sans-serif">#R-4521</text>
+  <text x="520" y="169" fill="#374151" font-size="10" font-family="Arial,sans-serif">Ahmed K.</text>
+  <rect x="596" y="158" width="52" height="16" rx="8" fill="#DCFCE7"/>
+  <text x="622" y="170" text-anchor="middle" fill="#16A34A" font-size="9" font-family="Arial,sans-serif">En Route</text>
+  <text x="680" y="169" fill="#374151" font-size="10" font-family="Arial,sans-serif">4 min</text>
+
+  <rect x="434" y="182" width="322" height="36" fill="#FFF8F0"/>
+  <rect x="434" y="218" width="322" height="1" fill="#E2E8F0"/>
+  <text x="448" y="205" fill="#374151" font-size="10" font-family="Arial,sans-serif">#R-4522</text>
+  <text x="520" y="205" fill="#374151" font-size="10" font-family="Arial,sans-serif">Sara M.</text>
+  <rect x="596" y="194" width="52" height="16" rx="8" fill="#FEF3C7"/>
+  <text x="622" y="206" text-anchor="middle" fill="#D97706" font-size="9" font-family="Arial,sans-serif">Pickup</text>
+  <text x="680" y="205" fill="#374151" font-size="10" font-family="Arial,sans-serif">2 min</text>
+
+  <rect x="434" y="218" width="322" height="36" fill="#FFF"/>
+  <rect x="434" y="254" width="322" height="1" fill="#E2E8F0"/>
+  <text x="448" y="241" fill="#374151" font-size="10" font-family="Arial,sans-serif">#R-4523</text>
+  <text x="520" y="241" fill="#374151" font-size="10" font-family="Arial,sans-serif">Mike T.</text>
+  <rect x="596" y="230" width="60" height="16" rx="8" fill="#EFF6FF"/>
+  <text x="626" y="242" text-anchor="middle" fill="#2563EB" font-size="9" font-family="Arial,sans-serif">Dispatched</text>
+  <text x="680" y="241" fill="#374151" font-size="10" font-family="Arial,sans-serif">8 min</text>
+
+  <rect x="434" y="254" width="322" height="36" fill="#FFF"/>
+  <rect x="434" y="290" width="322" height="1" fill="#E2E8F0"/>
+  <text x="448" y="277" fill="#374151" font-size="10" font-family="Arial,sans-serif">#R-4524</text>
+  <text x="520" y="277" fill="#374151" font-size="10" font-family="Arial,sans-serif">Priya S.</text>
+  <rect x="596" y="266" width="52" height="16" rx="8" fill="#DCFCE7"/>
+  <text x="622" y="278" text-anchor="middle" fill="#16A34A" font-size="9" font-family="Arial,sans-serif">En Route</text>
+  <text x="680" y="277" fill="#374151" font-size="10" font-family="Arial,sans-serif">11 min</text>
+
+  <rect x="434" y="290" width="322" height="36" fill="#FFF8F0"/>
+  <rect x="434" y="326" width="322" height="1" fill="#E2E8F0"/>
+  <text x="448" y="313" fill="#374151" font-size="10" font-family="Arial,sans-serif">#R-4525</text>
+  <text x="520" y="313" fill="#374151" font-size="10" font-family="Arial,sans-serif">Liam B.</text>
+  <rect x="596" y="302" width="52" height="16" rx="8" fill="#FCE7F3"/>
+  <text x="622" y="314" text-anchor="middle" fill="#DB2777" font-size="9" font-family="Arial,sans-serif">Waiting</text>
+  <text x="680" y="313" fill="#374151" font-size="10" font-family="Arial,sans-serif">—</text>
+
+  <!-- Stats bottom -->
+  <rect x="434" y="366" width="322" height="94" fill="#F8FAFC"/>
+  <rect x="434" y="366" width="322" height="1" fill="#E2E8F0"/>
+  <text x="448" y="388" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">TODAY'S SUMMARY</text>
+  <text x="448" y="412" fill="#111827" font-size="18" font-weight="bold" font-family="Arial,sans-serif">247</text>
+  <text x="448" y="428" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Total Rides</text>
+  <text x="570" y="412" fill="#F97316" font-size="18" font-weight="bold" font-family="Arial,sans-serif">$3.2k</text>
+  <text x="570" y="428" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Revenue</text>
+  <text x="680" y="412" fill="#22C55E" font-size="18" font-weight="bold" font-family="Arial,sans-serif">98%</text>
+  <text x="680" y="428" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Completion</text>
+  <text x="448" y="450" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Avg Rating: ⭐ 4.8 • Avg ETA: 7.2 min</text>
+</svg>

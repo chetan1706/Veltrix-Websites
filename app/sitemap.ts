@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { blogsPage } from "@/data/mock";
+import { getPortfolioSlugs } from "@/lib/portfolio";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -25,5 +26,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...blogPages];
+  const portfolioPages: MetadataRoute.Sitemap = getPortfolioSlugs().map(
+    (slug) => ({
+      url: `${SITE_URL}/portfolio/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.75,
+    }),
+  );
+
+  return [...staticPages, ...blogPages, ...portfolioPages];
 }

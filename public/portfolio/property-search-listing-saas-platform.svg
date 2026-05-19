@@ -1,0 +1,112 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1C1211"/><stop offset="100%" stop-color="#2D1A16"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="100" r="200" fill="#FB923C" opacity="0.07"/>
+  <circle cx="700" cy="450" r="160" fill="#EA580C" opacity="0.04"/>
+
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#2D1A16"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="252" y="45" width="252" height="22" rx="11" fill="#3D1F18"/>
+  <text x="378" y="61" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">propfind.saas / search</text>
+
+  <!-- Search header -->
+  <rect x="44" y="78" width="712" height="56" fill="#FFF7ED"/>
+  <text x="64" y="102" fill="#9A3412" font-size="13" font-weight="bold" font-family="Arial,sans-serif">🏠 PropFind</text>
+  <rect x="180" y="86" width="340" height="28" rx="14" fill="#FFF" stroke="#FED7AA" stroke-width="1.5"/>
+  <text x="200" y="104" fill="#9CA3AF" font-size="10" font-family="Arial,sans-serif">🔍 City, area, postcode...</text>
+  <rect x="530" y="86" width="90" height="28" rx="8" fill="#FB923C"/>
+  <text x="575" y="104" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold" font-family="Arial,sans-serif">Search</text>
+  <rect x="630" y="86" width="108" height="28" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="684" y="104" text-anchor="middle" fill="#9A3412" font-size="10" font-family="Arial,sans-serif">⚙ Filters</text>
+
+  <!-- Filter chips -->
+  <rect x="44" y="134" width="712" height="30" fill="#FFF"/>
+  <rect x="56" y="140" width="56" height="18" rx="9" fill="#FB923C"/>
+  <text x="84" y="153" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">Buy</text>
+  <rect x="118" y="140" width="56" height="18" rx="9" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="146" y="153" text-anchor="middle" fill="#9A3412" font-size="9" font-family="Arial,sans-serif">Rent</text>
+  <rect x="180" y="140" width="84" height="18" rx="9" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="222" y="153" text-anchor="middle" fill="#9A3412" font-size="9" font-family="Arial,sans-serif">2–4 Bedrooms</text>
+  <rect x="270" y="140" width="84" height="18" rx="9" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="312" y="153" text-anchor="middle" fill="#9A3412" font-size="9" font-family="Arial,sans-serif">$300k–$800k</text>
+  <rect x="360" y="140" width="64" height="18" rx="9" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="392" y="153" text-anchor="middle" fill="#9A3412" font-size="9" font-family="Arial,sans-serif">Parking</text>
+
+  <!-- Left: Property listings -->
+  <rect x="44" y="164" width="400" height="296" fill="#F8FAFC"/>
+  <text x="56" y="184" fill="#374151" font-size="10" font-weight="bold" font-family="Arial,sans-serif">284 properties found in London</text>
+
+  <!-- Property listing 1 -->
+  <rect x="54" y="192" width="380" height="90" rx="8" fill="#FFF" stroke="#FED7AA" stroke-width="1.5"/>
+  <rect x="54" y="192" width="100" height="90" rx="8" fill="#FFEDD5"/>
+  <text x="104" y="243" text-anchor="middle" fill="#FB923C" font-size="28" font-family="Arial,sans-serif">🏡</text>
+  <text x="165" y="214" fill="#111827" font-size="11" font-weight="bold" font-family="Arial,sans-serif">4-Bed Detached House</text>
+  <text x="165" y="229" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Kensington, London W8</text>
+  <text x="165" y="248" fill="#FB923C" font-size="14" font-weight="bold" font-family="Arial,sans-serif">£875,000</text>
+  <text x="165" y="263" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">🛏 4 bed • 🛁 2 bath • 📐 1,850 sq ft</text>
+  <text x="165" y="276" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">Listed 3 days ago • 12 saves</text>
+  <rect x="340" y="200" width="84" height="22" rx="6" fill="#FB923C"/>
+  <text x="382" y="215" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">View Details</text>
+  <rect x="340" y="226" width="84" height="22" rx="6" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="382" y="241" text-anchor="middle" fill="#9A3412" font-size="9" font-family="Arial,sans-serif">Save ♡</text>
+
+  <!-- Property listing 2 -->
+  <rect x="54" y="292" width="380" height="90" rx="8" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="54" y="292" width="100" height="90" rx="8" fill="#FEF3C7"/>
+  <text x="104" y="343" text-anchor="middle" fill="#D97706" font-size="28" font-family="Arial,sans-serif">🏢</text>
+  <text x="165" y="314" fill="#111827" font-size="11" font-weight="bold" font-family="Arial,sans-serif">2-Bed Modern Apartment</text>
+  <text x="165" y="329" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Shoreditch, London E1</text>
+  <text x="165" y="348" fill="#FB923C" font-size="14" font-weight="bold" font-family="Arial,sans-serif">£425,000</text>
+  <text x="165" y="363" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">🛏 2 bed • 🛁 1 bath • 📐 820 sq ft</text>
+  <text x="165" y="376" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">Listed today • 28 saves</text>
+
+  <!-- Property listing 3 -->
+  <rect x="54" y="392" width="380" height="60" rx="8" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="54" y="392" width="100" height="60" rx="8" fill="#EFF6FF"/>
+  <text x="104" y="428" text-anchor="middle" fill="#3B82F6" font-size="24" font-family="Arial,sans-serif">🏠</text>
+  <text x="165" y="414" fill="#111827" font-size="11" font-weight="bold" font-family="Arial,sans-serif">3-Bed Semi-Detached</text>
+  <text x="165" y="429" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Richmond, London TW9 • £650,000</text>
+  <text x="165" y="444" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">🛏 3 bed • 🛁 2 bath • 📐 1,320 sq ft</text>
+
+  <!-- Right: Map with pins -->
+  <rect x="444" y="164" width="312" height="296" fill="#E8F5E9"/>
+  <!-- Map tiles grid -->
+  <line x1="444" y1="230" x2="756" y2="230" stroke="#C8E6C9" stroke-width="0.5"/>
+  <line x1="444" y1="296" x2="756" y2="296" stroke="#C8E6C9" stroke-width="0.5"/>
+  <line x1="444" y1="362" x2="756" y2="362" stroke="#C8E6C9" stroke-width="0.5"/>
+  <line x1="444" y1="428" x2="756" y2="428" stroke="#C8E6C9" stroke-width="0.5"/>
+  <line x1="510" y1="164" x2="510" y2="460" stroke="#C8E6C9" stroke-width="0.5"/>
+  <line x1="576" y1="164" x2="576" y2="460" stroke="#C8E6C9" stroke-width="0.5"/>
+  <line x1="642" y1="164" x2="642" y2="460" stroke="#C8E6C9" stroke-width="0.5"/>
+  <line x1="708" y1="164" x2="708" y2="460" stroke="#C8E6C9" stroke-width="0.5"/>
+  <!-- Roads -->
+  <rect x="576" y="164" width="6" height="296" fill="#A5D6A7" opacity="0.6"/>
+  <rect x="444" y="296" width="312" height="6" fill="#A5D6A7" opacity="0.6"/>
+  <!-- Property pins -->
+  <circle cx="540" cy="260" r="16" fill="#FB923C"/>
+  <text x="540" y="265" text-anchor="middle" fill="#FFF" font-size="9" font-weight="bold" font-family="Arial,sans-serif">875k</text>
+  <circle cx="620" cy="310" r="14" fill="#FB923C" opacity="0.85"/>
+  <text x="620" y="315" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">425k</text>
+  <circle cx="500" cy="380" r="14" fill="#FB923C" opacity="0.7"/>
+  <text x="500" y="385" text-anchor="middle" fill="#FFF" font-size="9" font-family="Arial,sans-serif">650k</text>
+  <circle cx="700" cy="220" r="12" fill="#9CA3AF" opacity="0.7"/>
+  <text x="700" y="225" text-anchor="middle" fill="#FFF" font-size="8" font-family="Arial,sans-serif">340k</text>
+  <circle cx="660" cy="390" r="12" fill="#9CA3AF" opacity="0.6"/>
+  <text x="660" y="395" text-anchor="middle" fill="#FFF" font-size="8" font-family="Arial,sans-serif">520k</text>
+  <!-- Map controls -->
+  <rect x="720" y="174" width="28" height="28" rx="6" fill="#FFF"/>
+  <text x="734" y="192" text-anchor="middle" fill="#374151" font-size="14" font-family="Arial,sans-serif">+</text>
+  <rect x="720" y="206" width="28" height="28" rx="6" fill="#FFF"/>
+  <text x="734" y="224" text-anchor="middle" fill="#374151" font-size="14" font-family="Arial,sans-serif">−</text>
+  <!-- Map label -->
+  <rect x="454" y="442" width="120" height="14" rx="4" fill="#FFF" opacity="0.8"/>
+  <text x="514" y="453" text-anchor="middle" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">© PropFind Maps 2024</text>
+</svg>

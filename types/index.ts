@@ -40,8 +40,13 @@ export interface Service {
   order?: number;
 }
 
+export interface PortfolioMetric {
+  label: string;
+  value: string;
+}
+
 export interface PortfolioProject {
-  id?: number;
+  id?: string | number;
   slug?: string;
   title: string;
   category: string;
@@ -49,9 +54,22 @@ export interface PortfolioProject {
   image: string;
   order?: number;
   cover_image?: string;
-  metrics?: { label: string; value: string }[];
+  metrics?: PortfolioMetric[];
   sections?: { heading: string; body: string }[];
   gallery?: string[];
+}
+
+export interface PortfolioProjectDetail extends PortfolioProject {
+  slug: string;
+  subtitle: string;
+  industry: string;
+  industryLabel: string;
+  duration: string;
+  teamSize: string;
+  technologies: string[];
+  services: string[];
+  contentHtml: string;
+  metaDescription: string;
 }
 
 export interface BlogAuthor {

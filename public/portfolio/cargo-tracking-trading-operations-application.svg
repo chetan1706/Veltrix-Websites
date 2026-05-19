@@ -1,0 +1,117 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1B35"/><stop offset="100%" stop-color="#1E3A5F"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="100" r="200" fill="#60A5FA" opacity="0.06"/>
+
+  <rect x="44" y="34" width="712" height="426" rx="12" fill="#FFFFFF" filter="url(#sh)"/>
+  <path d="M44 46 Q44 34 56 34 L744 34 Q756 34 756 46 L756 78 L44 78 Z" fill="#0F2040"/>
+  <circle cx="74" cy="56" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="93" cy="56" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="112" cy="56" r="6" fill="#22C55E" opacity="0.85"/>
+  <rect x="252" y="45" width="252" height="22" rx="11" fill="#1A2E4A"/>
+  <text x="378" y="61" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Arial,sans-serif">cargotrack.ops / live-map</text>
+
+  <!-- Map area -->
+  <rect x="44" y="78" width="712" height="220" fill="#EFF6FF"/>
+  <!-- Ocean background -->
+  <rect x="44" y="78" width="712" height="220" fill="#DBEAFE" opacity="0.5"/>
+  <!-- Simplified world map continents -->
+  <ellipse cx="190" cy="160" rx="100" ry="60" fill="#D1FAE5" opacity="0.7"/>
+  <ellipse cx="380" cy="145" rx="120" ry="70" fill="#D1FAE5" opacity="0.7"/>
+  <ellipse cx="560" cy="155" rx="80" ry="55" fill="#D1FAE5" opacity="0.7"/>
+  <ellipse cx="680" cy="170" rx="50" ry="35" fill="#D1FAE5" opacity="0.7"/>
+  <ellipse cx="300" cy="240" rx="60" ry="35" fill="#D1FAE5" opacity="0.6"/>
+
+  <!-- Shipping routes -->
+  <path d="M130 155 Q260 120 380 165 Q470 195 580 155 Q640 135 710 145" stroke="#3B82F6" stroke-width="2" fill="none" stroke-dasharray="8 4" opacity="0.7"/>
+  <path d="M200 190 Q300 250 420 230 Q520 215 630 240" stroke="#F97316" stroke-width="2" fill="none" stroke-dasharray="8 4" opacity="0.6"/>
+  <path d="M100 130 Q150 90 250 100 Q350 110 430 130" stroke="#8B5CF6" stroke-width="1.5" fill="none" stroke-dasharray="6 4" opacity="0.5"/>
+
+  <!-- Ship icons -->
+  <circle cx="300" cy="143" r="8" fill="#3B82F6"/>
+  <text x="300" y="148" text-anchor="middle" fill="#FFF" font-size="8" font-family="Arial,sans-serif">🚢</text>
+  <circle cx="500" cy="162" r="8" fill="#F97316"/>
+  <text x="500" y="167" text-anchor="middle" fill="#FFF" font-size="8" font-family="Arial,sans-serif">🚢</text>
+  <circle cx="640" cy="148" r="8" fill="#8B5CF6"/>
+  <text x="640" y="153" text-anchor="middle" fill="#FFF" font-size="8" font-family="Arial,sans-serif">🚢</text>
+
+  <!-- Port markers -->
+  <circle cx="130" cy="155" r="6" fill="#EF4444" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="380" cy="165" r="6" fill="#EF4444" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="590" cy="155" r="6" fill="#22C55E" stroke="#FFF" stroke-width="1.5"/>
+  <circle cx="710" cy="145" r="6" fill="#F59E0B" stroke="#FFF" stroke-width="1.5"/>
+
+  <!-- Map legend -->
+  <rect x="56" y="86" width="130" height="60" rx="6" fill="#FFF" opacity="0.9"/>
+  <text x="66" y="104" fill="#374151" font-size="9" font-weight="bold" font-family="Arial,sans-serif">LIVE TRACKING</text>
+  <circle cx="70" cy="116" r="4" fill="#3B82F6"/>
+  <text x="80" y="120" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">Atlantic Route</text>
+  <circle cx="70" cy="130" r="4" fill="#F97316"/>
+  <text x="80" y="134" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">Pacific Route</text>
+  <circle cx="70" cy="144" r="4" fill="#8B5CF6"/>
+  <text x="80" y="148" fill="#6B7280" font-size="8" font-family="Arial,sans-serif">Indian Ocean</text>
+
+  <!-- Stats bar -->
+  <rect x="44" y="298" width="712" height="44" fill="#F1F5F9"/>
+  <rect x="44" y="298" width="712" height="1" fill="#E2E8F0"/>
+  <text x="70" y="315" fill="#9CA3AF" font-size="9" font-family="Arial,sans-serif">FLEET SUMMARY</text>
+  <text x="70" y="333" fill="#111827" font-size="13" font-weight="bold" font-family="Arial,sans-serif">48</text>
+  <text x="92" y="333" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Active Vessels</text>
+  <text x="220" y="333" fill="#F97316" font-size="13" font-weight="bold" font-family="Arial,sans-serif">12,400</text>
+  <text x="268" y="333" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">TEU Capacity</text>
+  <text x="400" y="333" fill="#22C55E" font-size="13" font-weight="bold" font-family="Arial,sans-serif">94%</text>
+  <text x="424" y="333" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">On Schedule</text>
+  <text x="560" y="333" fill="#3B82F6" font-size="13" font-weight="bold" font-family="Arial,sans-serif">$2.4M</text>
+  <text x="592" y="333" fill="#6B7280" font-size="9" font-family="Arial,sans-serif">Today's Volume</text>
+
+  <!-- Cargo table -->
+  <rect x="44" y="342" width="712" height="118" fill="#FFF"/>
+  <rect x="44" y="342" width="712" height="26" fill="#F8FAFC"/>
+  <text x="60" y="360" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">TRACKING #</text>
+  <text x="190" y="360" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">VESSEL</text>
+  <text x="320" y="360" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">ORIGIN → DEST.</text>
+  <text x="500" y="360" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">STATUS</text>
+  <text x="620" y="360" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">ETA</text>
+  <text x="700" y="360" fill="#6B7280" font-size="9" font-weight="bold" font-family="Arial,sans-serif">VALUE</text>
+
+  <rect x="44" y="368" width="712" height="1" fill="#E2E8F0"/>
+  <text x="60" y="384" fill="#3B82F6" font-size="10" font-family="Arial,sans-serif">CGO-78432</text>
+  <text x="190" y="384" fill="#374151" font-size="10" font-family="Arial,sans-serif">MV Atlantic Star</text>
+  <text x="320" y="384" fill="#374151" font-size="10" font-family="Arial,sans-serif">Rotterdam → New York</text>
+  <rect x="498" y="374" width="60" height="16" rx="8" fill="#DCFCE7"/>
+  <text x="528" y="386" text-anchor="middle" fill="#16A34A" font-size="9" font-family="Arial,sans-serif">En Route</text>
+  <text x="620" y="384" fill="#374151" font-size="10" font-family="Arial,sans-serif">May 28</text>
+  <text x="700" y="384" fill="#374151" font-size="10" font-family="Arial,sans-serif">$1.2M</text>
+
+  <rect x="44" y="392" width="712" height="1" fill="#E2E8F0"/>
+  <text x="60" y="408" fill="#3B82F6" font-size="10" font-family="Arial,sans-serif">CGO-78501</text>
+  <text x="190" y="408" fill="#374151" font-size="10" font-family="Arial,sans-serif">MV Pacific Eagle</text>
+  <text x="320" y="408" fill="#374151" font-size="10" font-family="Arial,sans-serif">Shanghai → Los Angeles</text>
+  <rect x="498" y="398" width="52" height="16" rx="8" fill="#FEF3C7"/>
+  <text x="524" y="410" text-anchor="middle" fill="#D97706" font-size="9" font-family="Arial,sans-serif">Customs</text>
+  <text x="620" y="408" fill="#374151" font-size="10" font-family="Arial,sans-serif">May 31</text>
+  <text x="700" y="408" fill="#374151" font-size="10" font-family="Arial,sans-serif">$890k</text>
+
+  <rect x="44" y="416" width="712" height="1" fill="#E2E8F0"/>
+  <text x="60" y="432" fill="#3B82F6" font-size="10" font-family="Arial,sans-serif">CGO-78399</text>
+  <text x="190" y="432" fill="#374151" font-size="10" font-family="Arial,sans-serif">MV Indian Horizon</text>
+  <text x="320" y="432" fill="#374151" font-size="10" font-family="Arial,sans-serif">Mumbai → Dubai</text>
+  <rect x="498" y="422" width="60" height="16" rx="8" fill="#DCFCE7"/>
+  <text x="528" y="434" text-anchor="middle" fill="#16A34A" font-size="9" font-family="Arial,sans-serif">Delivered</text>
+  <text x="620" y="432" fill="#374151" font-size="10" font-family="Arial,sans-serif">Done</text>
+  <text x="700" y="432" fill="#374151" font-size="10" font-family="Arial,sans-serif">$445k</text>
+
+  <rect x="44" y="440" width="712" height="1" fill="#E2E8F0"/>
+  <text x="60" y="456" fill="#3B82F6" font-size="10" font-family="Arial,sans-serif">CGO-78612</text>
+  <text x="190" y="456" fill="#374151" font-size="10" font-family="Arial,sans-serif">MV Northern Light</text>
+  <text x="320" y="456" fill="#374151" font-size="10" font-family="Arial,sans-serif">Hamburg → Singapore</text>
+  <rect x="498" y="446" width="60" height="16" rx="8" fill="#EFF6FF"/>
+  <text x="528" y="458" text-anchor="middle" fill="#2563EB" font-size="9" font-family="Arial,sans-serif">Loading</text>
+  <text x="620" y="456" fill="#374151" font-size="10" font-family="Arial,sans-serif">Jun 12</text>
+  <text x="700" y="456" fill="#374151" font-size="10" font-family="Arial,sans-serif">$1.7M</text>
+</svg>

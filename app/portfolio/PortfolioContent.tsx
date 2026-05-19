@@ -6,19 +6,13 @@ import { ArrowUpRight } from "lucide-react";
 import { portfolioPage } from "@/data/mock";
 import PageHeader from "@/components/PageHeader";
 import Reveal from "@/components/Reveal";
-
-interface Project {
-  id?: string;
-  title: string;
-  category: string;
-  tag: string;
-  image: string;
-  slug?: string;
-}
+import type { PortfolioProject } from "@/types";
 
 export default function PortfolioContent() {
   const { hero, categories } = portfolioPage;
-  const [projects, setProjects] = useState<Project[]>(portfolioPage.projects);
+  const [projects, setProjects] = useState<PortfolioProject[]>(
+    portfolioPage.projects,
+  );
   const [active, setActive] = useState("All");
 
   const filtered = useMemo(
@@ -59,7 +53,7 @@ export default function PortfolioContent() {
           {filtered.map((p, i) => (
             <Reveal key={p.id || p.title} delay={i * 70}>
               <Link
-                href="/portfolio"
+                href={p.slug ? `/portfolio/${p.slug}/` : "/portfolio/"}
                 className="group relative overflow-hidden rounded-2xl bg-[#fffbeb] border border-[#fde68a] hover:border-[#10b981]/40 card-lift block"
               >
                 <div className="aspect-[4/3] overflow-hidden">
